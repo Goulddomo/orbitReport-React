@@ -7,6 +7,7 @@ const Buttons = ({ filterByType, setSat, displaySats }) => {
 // filterByType = props.filterByType;
 // setSat = props.setSat;
 // displaySats = props.displaySats;
+
 return (
   <div>
 {displaySats.map((sat, id) => {
@@ -17,7 +18,7 @@ return (
   );
 
 })}
-    <button onClick={() => setSat(setData)}>All Orbits
+    <button onClick={() => setSat(satData)}>All Orbits
     </button>
     </div>
   );
