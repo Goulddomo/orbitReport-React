@@ -1,5 +1,5 @@
 // import App from '../Application'
-
+import styling from './styling.css'
 
 const Table = ({ sat }) => {
   // sat = props.sat;
@@ -11,11 +11,7 @@ const Table = ({ sat }) => {
           <th>Launch Date</th>
           <th>Status</th>
         </tr>
-    <thead>
-     <tr>
-       <th>Header TBD</th>
-     </tr>
-     </thead>
+ 
      <tbody>
       {sat.map ((data, id) => {
         return (

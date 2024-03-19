@@ -1,15 +1,11 @@
 import satData from "./satData";
-
-
-
+import "./styling.css";
 
 const Buttons = ({ filterByType, setSat, displaySats }) => {
-// filterByType = props.filterByType;
-// setSat = props.setSat;
-// displaySats = props.displaySats;
+
 
 return (
-  <div>
+  <div class="flex-container">
 {displaySats.map((sat, id) => {
   return (
     <button onClick={() => {filterByType(sat)}} key={id}>
